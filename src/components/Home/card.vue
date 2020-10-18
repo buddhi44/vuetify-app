@@ -5,7 +5,7 @@
 <!------ Include the above in your HEAD tag ---------->
 
 <!-- Team -->
-<section id="team" class="pb-5 container">
+<section id="team" class="pb-5 ">
     <div class="container">
         <h5 class="section-title h1">OUR TEAM</h5>
         <div class="row">
@@ -307,6 +307,8 @@
 
 <style>
     /* FontAwesome for working BootSnippet :> */
+
+    
 
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 #team {

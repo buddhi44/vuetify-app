@@ -1,17 +1,22 @@
 <template>
-  <v-app  class="grey lighten-4">
+
+  <div >
+       <v-app >
     
-    <Navbar />
+        <Navbar />
 
       
-    <v-main>
-      <router-view/>
-    </v-main>
+        <v-main>
+              <router-view/>
+        </v-main>
 
-    <Footer />
+        <Footer />
 
     
-  </v-app>
+         </v-app>
+
+  </div>
+ 
 </template>
 
 <script>

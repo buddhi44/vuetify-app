@@ -1,20 +1,55 @@
 <template>
-  <div >
-    <h1>This is an Home page</h1>
+  
+    
      <div>
-         <slider></slider>
-          <card></card>
+            <slider></slider>
+            <div  class="container">
+                  <div class="row">
+                      <div class="col 12">
+                        <section1></section1>
+                      </div>
+                      
+                  </div>
+
+
+                  <div class="row">
+                    <div class="col 12">
+                       <card></card>
+                    </div>
+                  </div>
+                  
+
+                   <div class="row">
+                      <div class="col 12">
+                        <section2></section2>
+                      </div>
+                    </div>
+
+                   <div class="row">
+                      <div class="col 12">
+                        <section3></section3>
+                      </div>
+                  </div>
+                 
+            </div>
     </div>          
- </div>
+ 
 </template>
 
 <script>
 import Slider from './Home/slider.vue'
 import Card from './Home/card.vue'
+import Section1 from './Home/section1.vue'
+import Section2 from './Home/section2.vue'
+import Section3 from './Home/section3.vue'
+
   export default {
 
    components: { 'slider' : Slider,
                   'card'  : Card,
+                  'section1':Section1,
+                   'section2':Section2,
+                    'section3':Section3,
             },
   
     data: () => ({
@@ -45,3 +80,5 @@ import Card from './Home/card.vue'
     },
   }
 </script>
+
+
