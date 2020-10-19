@@ -1,16 +1,41 @@
 <template>
-    <div class="container white box">
+    <div class=" c container white box">
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem officiis blanditiis tempore sequi voluptate dolorum cumque, 
-            quo veniam! Dolore illum odio, harum veniam praesentium commodi perspiciatis pariatur nemo amet dolorem!</p>
+       <div id="shiva"><span class="count">200</span></div>
 
     </div>
 </template>
 
 <style>
-  .row>div{
-    line-height: 60px;
-    background: white;
-    
-  }
+
+.c{
+    height:150px;
+}
+  #shiva
+{
+  width: 100px;
+	height: 100px;
+	background: red;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+  float:left;
+  margin:5px;
+}
+
+
+.count
+{
+  line-height: 100px;
+  color:white;
+  margin-left:30px;
+  font-size:25px;
+}
+  
 </style>
+
+<script>
+
+
+    
+</script>

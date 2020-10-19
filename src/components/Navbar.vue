@@ -9,8 +9,8 @@
     <nav class="nav-wrapper grey darken-4 ">
       <div class="container ">
         <a href="#" class="brand-logo">Site Title</a>
-        <a href="#" class="sidenav-trigger" data-target="mobile-links">
-          <i class="material-icons">menu</i>
+        <a href="#" class="sidenav-trigger" data-target="mobile-links" >
+          <i class="material-icons" >menu</i>
         </a>
         <ul class="right hide-on-med-and-down  ">
           <li><a href="">Home</a></li>
@@ -35,3 +35,11 @@
 
 
 
+<script>
+   
+      
+      
+      
+      
+    
+</script>

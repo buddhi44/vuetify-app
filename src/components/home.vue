@@ -25,13 +25,24 @@
                       </div>
                     </div>
 
-                   <div class="row">
+                    <div class="row">
                       <div class="col 12">
-                        <section3></section3>
+                          <section3></section3>
+                        
                       </div>
-                  </div>
+                    </div>
+
+                   
                  
             </div>
+
+    <div class="parallax-container  red">
+                              
+          <img src="img/stars.jpg" alt="" class="parallax">
+                              
+    </div>
+
+            
     </div>          
  
 </template>
@@ -79,6 +90,10 @@ import Section3 from './Home/section3.vue'
       },
     },
   }
+
+
 </script>
+
+
 
 
